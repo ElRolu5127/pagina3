@@ -1,1 +1,90 @@
-<h3>Hola</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons/style.css">
+</head>
+<body>
+    <div class="body-form">
+        <div class="formdisplay left" id="formDisplayLeft">
+            <form action="" class="formIndex" id="formSignIn">
+                <h3>
+                    Sign In
+                </h3>
+                <div class="formInputs">
+                    <label for="userSignIn" class="iconText icon-user">
+                    </label>
+                    <input type="text" name="" id="userSignIn" class="inputTextForm" placeholder="Username"> <br>
+                    <br>
+                    <label for="passSignIn"  class="iconText icon-lock">
+                    </label>
+                    <input type="password" name="" id="passSignIn" class="inputTextForm" placeholder="Password"><br>
+                    <br>
+                    <input type="checkbox" name="" id="showPassIn">
+                    <label for="showPassIn" class="checkboxCircle"></label>
+                    <p>Show Password</p>
+                    <br><br> <br>
+                    <button type="submit" class="formBtn">
+                        Log In
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="formdisplay right" id="formDisplayRight">
+            <h3>You still don't have an account?</h3>
+            <p>
+                create it here
+            </p>
+            <button id="changeSignIn" type="button" class="btnChangeLog">
+                <span class="icon-arrow-left2"></span>
+            </button>
+        </div>
+
+        
+        <div class="formdisplay up active left" id="formDisplayRight2">
+            <form action="" class="formIndex" id="formSignIn">
+                <h3>
+                    Sign Up
+                </h3>
+                <div class="formInputs reg">
+                    <label for="userSignUp" class="iconText icon-user">
+                    </label>
+                    <input type="text" name="" id="userSignUp" class="inputTextForm" placeholder="Username"> <br>
+                    <br>
+                    <label for="passSignUp"  class="iconText icon-lock">
+                    </label>
+                    <input type="password" name="" id="passSignUp" class="inputTextForm" placeholder="Password"><br>
+                    <br>
+                    <label for="repassSignUp"  class="iconText icon-lock">
+                    </label>
+                    <input type="password" name="" id="repassSignUp" class="inputTextForm" placeholder="Confirm Password"><br>
+                    <br>
+
+
+                    <input type="checkbox" name="" id="showPassUp">
+                    <label for="showPassUp" class="checkboxCircle"></label>
+                    <p>Show Password</p>
+                    <br> <br>
+                    <button type="submit" class="formBtn">
+                        Sign Up
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="formdisplay up right active" id="formDisplayLeft2">
+            <h3>Do you already have an account?</h3>
+            <p>
+                Log in here
+            </p>
+            <button id="changeSignUp" type="button" class="btnChangeLog">
+                <span class="icon-arrow-right2"></span>
+            </button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

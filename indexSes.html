@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons/style.css">
+</head>
+<body class="body-start">
+    <header>
+        <nav class="nav-head">
+            <a href="" class="btn-nav-head">
+                <span class="icon-cog"></span>
+                &nbsp;
+                Settings
+            </a>
+            <button type="button" class="btn-nav-head" id="btnChangeUser">
+                <span class="profile-nav icon-user"></span>
+                &nbsp;
+                User
+            </button>
+        </nav> 
+    </header>
+    <div class="submenu-user" id="submenuUser">
+        <a href="" class="btn-submenu-head">
+            <span class="icon-user"></span>
+            &nbsp;
+            Profile
+        </a>
+        <a href="" class="btn-submenu-head">
+            <span class="icon-pencil"></span>
+            &nbsp;
+            Edit Profile
+        </a>
+        <a href="" class="btn-submenu-head">
+            <span class="icon-lock"></span>
+            &nbsp;
+            Change Password
+        </a>
+        <a href="" class="btn-submenu-head">
+            <span class="icon-bin"></span>
+            &nbsp;
+            Delete Account
+        </a>
+        <a href="" class="btn-submenu-head">
+            <span class="icon-exit"></span>
+            &nbsp;
+            Logout
+        </a>
+    </div>
+    <aside class="side-left" id="sideNav">
+        <button type="button" class="side-btn" id="changeSideNav">
+            <span class="icon-arrow-right2 iconActive"></span>
+        </button>
+        <div class="side-menu">
+            <a href="indexSes.html" class="side-btn home">
+                <span class="icon-home span-icon"></span>
+                <p class="text-btn-side">
+                    Home
+                </p>
+            </a>
+            <a href="indexSes.html?page=userList" class="side-btn">
+                <span class="icon-users span-icon"></span>
+                <p class="text-btn-side">
+                    User List
+                </p>
+            </a>
+            <a href="indexSes.html?page=quotes" class="side-btn">
+                <span class="icon-folder-open span-icon"></span>
+                <p class="text-btn-side">
+                    Quotes
+                </p>
+            </a>
+            <a href="indexSes.html?page=blog" class="side-btn">
+                <span class="icon-pencil span-icon"></span>
+                <p class="text-btn-side">
+                    Blog
+                </p>
+            </a>
+        </div>
+    </aside>
+
+
+
+    <div class="home-profile" id="pageHome">
+        <div class="user-card">
+            <img src="img/profile.jpg" alt="" width="70px" height="70px" class="img-home-profile">
+            <h2 class="username-home-profile">User Name</h2>
+            <h3 class="rank-home-profile">Rank</h3>
+            <br>
+            <p class="desc-home-profile">
+                Profile description
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, possimus.
+            </p>
+            <div class="imgs-home-profile">
+                <div class="text-img-home-profile">
+                    <img src="img/img1.jpg" alt="" class="imgs-home-profile">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, hic.
+                    </p>
+                </div>
+                <div class="text-img-home-profile">
+                    <img src="img/img2.jpg" alt="" class="imgs-home-profile">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, hic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-userList dis" id="pageUserList">
+        <div class="home-user-title">
+            <h2>
+                <span class="icon-profile"></span>
+                Users List
+            </h2>
+        </div>
+        <div class="home-user-table">
+            <table>
+                <tr>
+                    <th>Profile</th>
+                    <th>User</th>
+                    <th>Email</th>
+                    <th>Rank</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/img1.jpg" alt="">
+                    </td>
+                    <td>Example</td>
+                    <td>example@gmail.com</td>
+                    <td>User</td>
+                    <td>
+                        <button type="button" class="btn-homeUser">
+                            <span class="icon-bin"></span>
+                        </button>
+                        <button type="button" class="btn-homeUser blue">
+                            <span class="icon-envelop"></span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/img1.jpg" alt="">
+                    </td>
+                    <td>Example</td>
+                    <td>example@gmail.com</td>
+                    <td>User</td>
+                    <td>
+                        <button type="button" class="btn-homeUser">
+                            <span class="icon-bin"></span>
+                        </button>
+                        <button type="button" class="btn-homeUser blue">
+                            <span class="icon-envelop"></span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/img1.jpg" alt="">
+                    </td>
+                    <td>Example</td>
+                    <td>example@gmail.com</td>
+                    <td>User</td>
+                    <td>
+                        <button type="button" class="btn-homeUser">
+                            <span class="icon-bin"></span>
+                        </button>
+                        <button type="button" class="btn-homeUser blue">
+                            <span class="icon-envelop"></span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/img1.jpg" alt="">
+                    </td>
+                    <td>Example</td>
+                    <td>example@gmail.com</td>
+                    <td>User</td>
+                    <td>
+                        <button type="button" class="btn-homeUser">
+                            <span class="icon-bin"></span>
+                        </button>
+                        <button type="button" class="btn-homeUser blue">
+                            <span class="icon-envelop"></span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/img1.jpg" alt="">
+                    </td>
+                    <td>Example</td>
+                    <td>example@gmail.com</td>
+                    <td>User</td>
+                    <td>
+                        <button type="button" class="btn-homeUser">
+                            <span class="icon-bin"></span>
+                        </button>
+                        <button type="button" class="btn-homeUser blue">
+                            <span class="icon-envelop"></span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/img1.jpg" alt="">
+                    </td>
+                    <td>Example</td>
+                    <td>example@gmail.com</td>
+                    <td>User</td>
+                    <td>
+                        <button type="button" class="btn-homeUser">
+                            <span class="icon-bin"></span>
+                        </button>
+                        <button type="button" class="btn-homeUser blue">
+                            <span class="icon-envelop"></span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/img1.jpg" alt="">
+                    </td>
+                    <td>Example</td>
+                    <td>example@gmail.com</td>
+                    <td>User</td>
+                    <td>
+                        <button type="button" class="btn-homeUser">
+                            <span class="icon-bin"></span>
+                        </button>
+                        <button type="button" class="btn-homeUser blue">
+                            <span class="icon-envelop"></span>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/scriptSess.js"></script>
+</body>
+</html>
